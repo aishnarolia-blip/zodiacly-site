@@ -1,0 +1,48 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Free Vedic Birth Chart (Kundli) Calculator: Lagna, Rashi, Nakshatra</title><meta name="description" content="Free Vedic birth chart and Janam Kundli calculator. Find your Lagna, Moon sign (Rashi) and Nakshatra instantly. No sign-up."><link rel="canonical" href="https://aishnarolia-blip.github.io/zodiacly-site/">
+<meta property="og:title" content="Free Vedic Birth Chart (Kundli) Calculator: Lagna, Rashi, Nakshatra"><meta property="og:description" content="Free Vedic birth chart and Janam Kundli calculator. Find your Lagna, Moon sign (Rashi) and Nakshatra instantly. No sign-up."><meta property="og:type" content="website"><meta property="og:url" content="https://aishnarolia-blip.github.io/zodiacly-site/">
+<meta name="theme-color" content="#000000"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lora:wght@500;600&display=swap">
+<style>
+:root{--g:#E8C56B;--gl:#F6E3A1;--gd:#C9962E;--m:#8C8C94;--t:#F5F5F2}
+*{box-sizing:border-box;margin:0}body{background:#000;color:var(--t);font:16px/1.65 Inter,system-ui,sans-serif}
+a{color:var(--g)}header{padding:18px 20px;display:flex;justify-content:space-between;align-items:center;max-width:960px;margin:auto}
+.brand{font-family:Lora,Georgia,serif;font-size:20px;color:var(--g);text-decoration:none;letter-spacing:.5px}
+nav a{margin-left:16px;color:var(--m);text-decoration:none;font-size:14px}
+main{max-width:760px;margin:auto;padding:10px 20px 60px}
+h1{font:600 clamp(30px,6vw,44px)/1.15 Lora,Georgia,serif;letter-spacing:-.5px;margin:18px 0 12px}
+h2{font:600 24px/1.25 Lora,Georgia,serif;margin:34px 0 10px;color:var(--gl)}
+p,li{color:#D8D8D4}ul{padding-left:20px}.mut{color:var(--m);font-size:14px}
+.panel{border:1px solid #ffffff22;border-radius:20px;background:linear-gradient(135deg,#1C1C1F,#0D0D0E);padding:18px;margin:16px 0}
+.cta{display:inline-block;margin:10px 0;padding:14px 26px;border-radius:40px;background:linear-gradient(135deg,var(--gl),var(--g),var(--gd));color:#000;font-weight:700;text-decoration:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}.grid a{display:block;padding:12px 14px;border:1px solid #ffffff1f;border-radius:14px;text-decoration:none;color:var(--t);background:#0d0d0e}
+.grid a small{display:block;color:var(--m)}table{width:100%;border-collapse:collapse}td,th{padding:8px 6px;border-bottom:1px solid #ffffff14;text-align:left;font-size:15px}
+input,button,select{font:inherit;color:var(--t);background:#101011;border:1px solid #ffffff2a;border-radius:12px;padding:12px;width:100%}
+.row{display:flex;gap:10px;flex-wrap:wrap}.row>*{flex:1 1 140px}#sug div{padding:10px;border-bottom:1px solid #ffffff14;cursor:pointer}
+footer{max-width:760px;margin:auto;padding:30px 20px 50px;color:var(--m);font-size:13px;border-top:1px solid #ffffff14}
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Zodiacly Free Vedic Birth Chart Calculator", "applicationCategory": "LifestyleApplication", "operatingSystem": "Web, Android", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script></head><body>
+<header><a class="brand" href="./">☸ Zodiacly</a><nav><a href="nakshatra/">Nakshatras</a><a href="rashi/">Rashis</a><a href="https://play.google.com/store/apps/details?id=com.aishnarolia.zodiacly&referrer=utm_source%3Dwebsite%26utm_medium%3Dseo">Get the app</a></nav></header>
+<main><h1>Free Vedic Birth Chart (Kundli) Calculator</h1>
+<p>Find your <b>Lagna, Rashi (Moon sign) and Nakshatra</b> in seconds. Enter your birth details to see your Janam Kundli positions, calculated with the Lahiri ayanamsa. Free, no sign-up.</p>
+<form id="f" class="panel"><div class="row"><input id="dob" type="date" aria-label="Date of birth" required><input id="tob" type="time" aria-label="Time of birth" required></div>
+<div style="margin:10px 0"><input id="place" placeholder="Place of birth (city)" autocomplete="off" required><div id="sug"></div></div><button class="cta" style="border:0;cursor:pointer">Show my chart</button></form>
+<div id="out"></div>
+<h2>What you get</h2><ul><li><b>Lagna</b>, the sign rising at your birth</li><li><b>Rashi</b>, your Moon sign, the heart of a Vedic chart</li><li><b>Nakshatra</b> and pada, your birth star</li><li>Positions of the nine grahas (planets) by house</li></ul>
+<h2>Vedic vs Western astrology</h2><p>Vedic (Jyotish) astrology uses the sidereal zodiac, so your Sun sign is often the sign before the one you know from Western astrology. Your Moon sign matters most. Browse all <a href="rashi/">12 rashis</a> and <a href="nakshatra/">27 nakshatras</a>.</p>
+<div class="panel" style="text-align:center"><div style="font:600 20px Lora,serif;margin-bottom:6px">Get your free Vedic birth chart in the Zodiacly app</div><div class="mut">Janam Kundli, nakshatra, dasha and a written reading. Free to start. 8 languages.</div><a class="cta" href="https://play.google.com/store/apps/details?id=com.aishnarolia.zodiacly&referrer=utm_source%3Dwebsite%26utm_medium%3Dseo">Get it on Google Play</a></div><script>
+const SIGNS=["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"],NAKS=["Ashwini", "Bharani", "Krittika", "Rohini", "Mrigashira", "Ardra", "Punarvasu", "Pushya", "Ashlesha", "Magha", "Purva Phalguni", "Uttara Phalguni", "Hasta", "Chitra", "Swati", "Vishakha", "Anuradha", "Jyeshtha", "Mula", "Purva Ashadha", "Uttara Ashadha", "Shravana", "Dhanishta", "Shatabhisha", "Purva Bhadrapada", "Uttara Bhadrapada", "Revati"];let C=null,pick=null;
+fetch('cities.json').then(r=>r.json()).then(j=>C=j);
+const q=document.getElementById('place'),sug=document.getElementById('sug');
+q.addEventListener('input',()=>{pick=null;sug.innerHTML='';if(!C||q.value.length<2)return;const s=q.value.toLowerCase();let a=[],b=[];
+for(const c of C.c){const n=c[0].toLowerCase();if(n.startsWith(s))a.push(c);else if(a.length<8&&n.includes(s))b.push(c);if(a.length>=8)break}
+for(const c of a.concat(b).slice(0,8)){const d=document.createElement('div');d.textContent=c[0]+(c[2]?', '+c[2]:'')+', '+c[1];d.onclick=()=>{pick=c;q.value=d.textContent;sug.innerHTML=''};sug.appendChild(d)}});
+document.getElementById('f').addEventListener('submit',async ev=>{ev.preventDefault();const out=document.getElementById('out');
+const d=document.getElementById('dob').value,t=document.getElementById('tob').value;if(!d||!t||!pick){out.textContent='Please enter date, time and choose a place from the list.';return}
+const [y,m,dd]=d.split('-').map(Number),[h,mi]=t.split(':').map(Number);out.textContent='Reading the stars…';
+try{const r=await fetch('https://asia-south1-zodiacly.cloudfunctions.net/chart',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({year:y,month:m,day:dd,hour:h,minute:mi,place:{name:pick[0],lat:pick[3],lon:pick[4],tz:C.tz[pick[5]]}})});
+if(!r.ok)throw 0;const c=(await r.json()).chart;const nk=c.nakshatra.name;
+const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-');
+out.innerHTML='<div class="panel"><table><tr><th>Lagna (Ascendant)</th><td>'+SIGNS[c.lagna.sign]+'</td></tr><tr><th>Rashi (Moon sign)</th><td>'+SIGNS[c.rashi]+'</td></tr><tr><th>Nakshatra</th><td><a href="nakshatra/'+slug(nk)+'.html">'+nk+'</a> · pada '+c.nakshatra.pada+'</td></tr>'+c.planets.map(p=>'<tr><th>'+p.name+'</th><td>'+SIGNS[p.sign]+' · house '+p.house+'</td></tr>').join('')+'</table></div><p class="mut">Vedic (sidereal) positions, Lahiri ayanamsa.</p><a class="cta" href="https://play.google.com/store/apps/details?id=com.aishnarolia.zodiacly&referrer=utm_source%3Dwebsite%26utm_medium%3Dseo">Get the full Patrika in the app</a>'}
+catch(e){out.textContent='Could not calculate just now. Please try again.'}});
+</script></main>
+<footer><p>Zodiacly is for reflection and entertainment. Nothing here is a prediction, medical, legal or financial advice.</p>
+<p style="margin-top:8px"><a href="privacy/">Privacy</a> · <a href="https://play.google.com/store/apps/details?id=com.aishnarolia.zodiacly&referrer=utm_source%3Dwebsite%26utm_medium%3Dseo">Google Play</a></p></footer></body></html>
